@@ -11,7 +11,7 @@ terraform {
     resource_group_name  = "Terraform-RG"
     storage_account_name = "vinayktf"
     container_name       = "tfstate"
-    key                  = "terraform.tfstate"
+    key                  = "tfstatefile"
     use_oidc             = true
   }
 }
